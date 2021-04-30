@@ -7,6 +7,16 @@ Developed @ One Month in NYC
 
 */
 
+/* <style>
+</style>
+CSS rules to specify families
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+
 body {
 	/*background: url('../images/cookie-monster.jpg');*/
 	/* the follow is the code to have the image display as a full page */
@@ -16,4 +26,5 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: 'Krona One', sans-serif;
 }
