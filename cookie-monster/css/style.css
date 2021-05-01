@@ -20,11 +20,25 @@ CSS rules to specify families
 body {
 	/*background: url('../images/cookie-monster.jpg');*/
 	/* the follow is the code to have the image display as a full page */
+	background-color: #ffffcc;
 	background-position: center;
 	background-attachment: fixed;
 	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-size: 3rem;
 	font-family: 'Krona One', sans-serif;
+	border: 10px solid green;
+}h2 {
+	background-color: pink;
+	border: 3px double darkred;
+	text-align: center;
 }
+p {
+	background-color: darkseagreen;
+	border: 2px solid yellowgreen;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
