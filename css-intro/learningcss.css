@@ -2,12 +2,46 @@
 
 
 * {
-    text-align: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 body {
     background-color: wheat;
-
+    text-align: center;
+    align-items: center;
     font-family: 'Krona One', sans-serif;
 
+}
+.big_div {
+    color: brown;
+}
+
+
+/* Lord Vader Former Handle Anakin :link, :visited, :focus, :hover, :active
+
+Pseudo-classes: specify styling in these states.
+
+:link — unvisited link
+:visited — visited state
+:focus — the currently "focused" (selected) element
+:hover — hover your mouse over this
+:active — the time between the link is selected and the time the page loads.
+*/
+
+a:link {
+    font-weight: lighter;
+    text-decoration: underline;
+    color: orange;
+    font-size: 1rem;
+}
+
+a:visited {
+    color: green;
+    font-size: 1rem;
+}
+
+a:hover {
+    color: pink;
+    text-decoration: underline;
+    background-color: grey;
 }
