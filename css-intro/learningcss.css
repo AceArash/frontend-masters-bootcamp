@@ -45,3 +45,8 @@ a:hover {
     text-decoration: underline;
     background-color: grey;
 }
+
+
+
+/* Order of priorirty in css property
+1. Inside body of html file >>>> 2. Inside html files with <style></style> >>> 3. External css files with .css and through link */
